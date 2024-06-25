@@ -75,15 +75,15 @@
                         <goals>
                             <goal>run</goal>
                         </goals>
-                        <configuration>
-                            <tasks>
-                                <copy todir="${project.basedir}/../launcher/target/classes/rdb" overwrite="true">
-                                    <fileset dir="${project.basedir}/target/classes/rdb" erroronmissingdir="true">
-                                        <include name="*.yml" />
-                                    </fileset>
-                                </copy>
-                            </tasks>
-                        </configuration>
+<!--                        <configuration>-->
+<!--                            <tasks>-->
+<!--                                <copy todir="${project.basedir}/../launcher/target/classes/rdb" overwrite="true">-->
+<!--                                    <fileset dir="${project.basedir}/target/classes/rdb" erroronmissingdir="true">-->
+<!--                                        <include name="*.yml" />-->
+<!--                                    </fileset>-->
+<!--                                </copy>-->
+<!--                            </tasks>-->
+<!--                        </configuration>-->
                     </execution>
                 </executions>
             </plugin>
